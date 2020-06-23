@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import PricingService from "./PricingService";
+
 class PricingItem extends Component {
-  state = {};
   render() {
     return (
       <div className="col-lg-6">
@@ -14,56 +15,19 @@ class PricingItem extends Component {
               <span className="period">/Paket</span>
             </h6>
             <hr />
-            <ul className="fa-ul">
-              <li>
-                <span className="fa-li">
-                  <i className={this.props.icon}></i>
-                </span>
-                {this.props.service1}
-              </li>
-              <li>
-                <span className="fa-li">
-                  <i className={this.props.icon}></i>
-                </span>
-                {this.props.service2}
-              </li>
-              <li>
-                <span className="fa-li">
-                  <i className={this.props.icon}></i>
-                </span>
-                {this.props.service3}
-              </li>
-              <li>
-                <span className="fa-li">
-                  <i className={this.props.icon}></i>
-                </span>
-                {this.props.service4}
-              </li>
-              <li>
-                <span className="fa-li">
-                  <i className={this.props.icon}></i>
-                </span>
-                {this.props.service5}
-              </li>
-              <li>
-                <span className="fa-li">
-                  <i className={this.props.icon}></i>
-                </span>
-                {this.props.service6}
-              </li>
-              <li>
-                <span className="fa-li">
-                  <i className={this.props.icon}></i>
-                </span>
-                {this.props.service7}
-              </li>
-              <li>
-                <span className="fa-li">
-                  <i className={this.props.icon}></i>
-                </span>
-                {this.props.service8}
-              </li>
-            </ul>
+            <div className="container" style={{ height: "300px" }}>
+              <ul className="fa-ul">
+                {this.props.service.map((item, index) => {
+                  return (
+                    <PricingService
+                      service={item}
+                      key={index}
+                      icon={this.props.icon}
+                    />
+                  );
+                })}
+              </ul>
+            </div>
             <a href="#" className="btn btn-block btn-primary text-uppercase">
               Button
             </a>
