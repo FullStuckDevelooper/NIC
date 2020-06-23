@@ -28,9 +28,9 @@ class PricingItem extends Component {
                 })}
               </ul>
             </div>
-            <a href="#" className="btn btn-block btn-primary text-uppercase">
+            <button className="btn btn-block btn-primary text-uppercase">
               Button
-            </a>
+            </button>
           </div>
         </div>
       </div>

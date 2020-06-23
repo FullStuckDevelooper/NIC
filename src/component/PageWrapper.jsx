@@ -32,17 +32,17 @@ class PageWrapper extends Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav navbar-right ">
               <li className="nav-item">
-                <Link className="nav-link" to="section">
+                <Link className="nav-link" to="beranda">
                   Beranda
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="employee">
+                <Link className="nav-link" to="organisasi">
                   Organisasi
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="showcase">
+                <Link className="nav-link" to="kegiatan">
                   Kegiatan
                 </Link>
               </li>
@@ -52,7 +52,7 @@ class PageWrapper extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="pricing">
+                <Link className="nav-link" to="harga">
                   Harga
                 </Link>
               </li>

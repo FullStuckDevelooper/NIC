@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import img from "../img/1.jpg";
-import img1 from "../img/showcase/1.jpg";
+import img from "../img/showcase/daftar.jpg";
+import img1 from "../img/showcase/belajar.jpg";
 import img2 from "../img/showcase/2.jpg";
 import img3 from "../img/showcase/3.jpg";
 
