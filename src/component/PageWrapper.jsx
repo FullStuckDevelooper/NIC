@@ -59,7 +59,7 @@ class PageWrapper extends Component {
             </ul>
           </div>
         </nav>
-        <section style={{ backgroundImage: `url(${img2})` }}>
+        <section style={{ backgroundImage: `url(${img2}) ` }}>
           {this.props.children}
         </section>
       </div>

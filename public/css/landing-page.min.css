@@ -80,8 +80,8 @@ header.masthead h1 {
   max-width: 15rem;
 }
 .testimonials .testimonial-item img {
-  max-width: 10rem;
-  max-height: 20rem;
+  width: 10rem;
+  height: 13rem;
   box-shadow: 0 5px 5px 0 #adb5bd;
 }
 .call-to-action {

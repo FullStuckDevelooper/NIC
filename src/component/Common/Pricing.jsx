@@ -9,9 +9,7 @@ const program = [
     harga: "450k",
     service: [
       "Windows Introduction",
-      "Microsoft Word",
-      "Microsoft Excel",
-      "Microsoft Power Point",
+      "Microsoft Office",
       "Printing",
       "Internet"
     ]

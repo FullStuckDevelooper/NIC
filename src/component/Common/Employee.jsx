@@ -5,8 +5,8 @@ import img1 from "../img/employee/2.jpeg";
 import img2 from "../img/employee/3.jpeg";
 import img3 from "../img/employee/4.jpeg";
 import img4 from "../img/employee/5.jpeg";
-import img5 from "../img/employee/default.png";
-
+import img5 from "../img/employee/6.jpeg";
+import img6 from "../img/employee/7.jpeg";
 const pegawai = [
   { img: "", name: "", detail: "" },
   { img: img2, name: "Dedi Naluri,S Sos.,M.SI", detail: "Pimpinan" },
@@ -15,7 +15,7 @@ const pegawai = [
   { img: img3, name: "Reya Mardiyana S.Pd", detail: "Administrasi" },
   { img: img4, name: "Oom Nurmayanti", detail: "Bendahara" },
   { img: img5, name: "Iing Ramdhani", detail: "Kewirausahaan & Manajemen" },
-  { img: img5, name: "Bayu Fajar Pratama", detail: "P4- Bimbingan Konsumen" }
+  { img: img6, name: "Bayu Fajar Pratama", detail: "P4- Bimbingan Konsumen" }
 ];
 class Employee extends Component {
   render() {
