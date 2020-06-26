@@ -4,7 +4,7 @@ import img from "../img/nic.png";
 class Beranda extends Component {
   render() {
     return (
-      <div className="mb-5">
+      <div className="pb-5">
         <div className="container text-center mb-5">
           <img
             className="img-fluid "

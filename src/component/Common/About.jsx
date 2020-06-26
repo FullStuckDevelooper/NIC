@@ -9,23 +9,33 @@ class About extends Component {
   state = {};
   render() {
     return (
-      <div className="jumbotron  " style={css}>
-        <h1 className="display-4 text-info">Tentang NIC</h1>
-        <p className="lead">
+      <div className="jumbotron pb-3 " style={css}>
+        <h1 className="display-4 text-info ">Tentang NIC </h1>
+        <p className="lead ">
           Adalah sebuah lembaga kursus dan pelatihan yang berlokasi di Jl. Raya
           Karangnunggal No. 34 A Rancamaya Karangnunggal Kab. Tasikmalaya yang
-          terlah terakreditasi C oleh BAN FNFI
+          terlah terakreditasi C oleh BAN FNFI sudah berdiri sejak 19 September
+          1995 dan telah mengajar ratusan Siswa
         </p>
         <hr className="my-2" />
-        <p>
-          It uses utility classes for typography and spacing to space content
-          out within the larger container.
-        </p>
-        <p className="lead">
-          <a className="btn btn-primary btn-lg" href="#!" role="button">
-            Some action
+        <div className="text-center  p-5 m-5 ">
+          <p className="lead font-weight-bold">Contact Person</p>
+          <a
+            href={"https://www.facebook.com/lkpyayasan.nic"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab  fa-facebook fa-4x fa-fw"></i>
           </a>
-        </p>
+          <a
+            className="text-success"
+            href={"https://wa.me/6282218245461"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab  fa-whatsapp fa-4x fa-fw"></i>
+          </a>
+        </div>
       </div>
     );
   }
