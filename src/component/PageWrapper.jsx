@@ -2,9 +2,17 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import img from "./img/nic.png";
 import img2 from "./img/white.jpg";
+import AOS from "aos";
 
 class PageWrapper extends Component {
-  state = {};
+  componentDidMount() {
+    // or simply just AOS.init();
+    AOS.init({
+      // initialise with other settings
+      duration: 2000
+    });
+  }
+
   render() {
     return (
       <div>

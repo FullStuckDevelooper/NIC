@@ -10,6 +10,7 @@ class Header extends Component {
           <div className="row mt-1 pt-1">
             <div className="col-xl-6 mx-auto">
               <img
+                data-aos="zoom-in"
                 src={img}
                 width="50%"
                 height="100%"
@@ -18,7 +19,7 @@ class Header extends Component {
               />
             </div>
             <div className="col-xl-6 mx-auto pt-3">
-              <h1 className="mb-5 text-center text-primary">
+              <h1 data-aos="zoom-out" className="mb-5 text-center text-primary">
                 Naluri Informatika Computer
               </h1>
             </div>

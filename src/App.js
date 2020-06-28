@@ -1,7 +1,7 @@
 import React from "react";
 import PageWrapper from "./component/PageWrapper";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
+import "aos/dist/aos.css";
 //pages
 import Header from "./component/Common/Header";
 import Beranda from "./component/Common/Beranda";

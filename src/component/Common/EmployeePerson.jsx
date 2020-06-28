@@ -5,6 +5,7 @@ class EmployeePerson extends Component {
       <div className="col-lg-4">
         <div className="testimonial-item mx-auto mb-5 mb-lg-0">
           <img
+            data-aos="flip-right"
             className="img-fluid img-thumbnail rounded-circle mb-3"
             src={this.props.img}
             alt=""

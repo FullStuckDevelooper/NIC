@@ -10,15 +10,17 @@ class About extends Component {
   render() {
     return (
       <div className="jumbotron pb-3 " style={css}>
-        <h1 className="display-4 text-info ">Tentang NIC </h1>
-        <p className="lead ">
+        <h1 data-aos="fade-right" className="display-4 text-info ">
+          Tentang NIC{" "}
+        </h1>
+        <p data-aos="fade-left" className="lead ">
           Adalah sebuah lembaga kursus dan pelatihan yang berlokasi di Jl. Raya
           Karangnunggal No. 34 A Rancamaya Karangnunggal Kab. Tasikmalaya yang
           terlah terakreditasi C oleh BAN FNFI sudah berdiri sejak 19 September
           1995 dan telah mengajar ratusan Siswa
         </p>
         <hr className="my-2" />
-        <div className="text-center  p-5 m-5 ">
+        <div data-aos="zoom-out-up" className="text-center  p-5 m-5 ">
           <p className="lead font-weight-bold">Contact Person</p>
           <a
             href={"https://www.facebook.com/lkpyayasan.nic"}

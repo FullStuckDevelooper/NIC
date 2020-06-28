@@ -5,7 +5,7 @@ class Beranda extends Component {
   render() {
     return (
       <div className="pb-5">
-        <div className="container text-center mb-5">
+        <div data-aos="zoom-in-down" className="container text-center mb-5">
           <img
             className="img-fluid "
             src={img}
@@ -14,8 +14,8 @@ class Beranda extends Component {
             alt=""
           />
         </div>
-        <div className="container">
-          <h2 className="text-center ">Visi </h2>
+        <div data-aos="zoom-in-down" className="container">
+          <h2 className="text-center ">Visi{""}</h2>
           <hr />
           <h4 className="text-center">
             Peningkatan Sumber Daya Manusia yang Terampil dan Berkualitas di
