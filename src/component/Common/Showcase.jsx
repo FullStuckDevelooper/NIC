@@ -1,17 +1,34 @@
 import React, { Component } from "react";
-import img from "../img/showcase/daftar.jpg";
-import img1 from "../img/showcase/belajar.jpg";
-import img2 from "../img/showcase/2.jpg";
-import img3 from "../img/showcase/3.jpg";
+import img from "../img/showcase/pendaftaran.jpg";
+import img1 from "../img/showcase/pembelajaran.jpg";
+import img2 from "../img/showcase/ujian.jpg";
+import img3 from "../img/showcase/magang2.jpg";
 
 import ShowcaseLeft from "./ShowcaseLeft";
 import ShowcaseRight from "./ShowcaseRight";
 
 const showcase = [
-  { img: img, title: "Kegiatan A", subtitle: "Detail Kegiatan A" },
-  { img: img1, title: "Kegiatan B", subtitle: "Detail Kegiatan B" },
-  { img: img2, title: "Kegiatan C", subtitle: "Detail Kegiatan B" },
-  { img: img3, title: "Kegiatan D", subtitle: "Detail Kegiatan D" }
+  {
+    img: img,
+    title: "Pendaftaran",
+    subtitle: "Kegiatan Pendaftaran dilakukan pada awal semester xxxx"
+  },
+  {
+    img: img1,
+    title: "Pembelajaran",
+    subtitle: "Kegiatan Pembelajaran dilakukan pada x hari dan x jam"
+  },
+  {
+    img: img2,
+    title: "Ujian",
+    subtitle: "Ujian dilakukan pada x hari dan x jam"
+  },
+  {
+    img: img3,
+    title: "Magang",
+    subtitle:
+      "Magang dilakukan ketika x x x pada akhir semester untuk menguji kecakapan peserta didik"
+  }
 ];
 
 class Showcase extends Component {

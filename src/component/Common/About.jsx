@@ -16,8 +16,8 @@ class About extends Component {
         <p data-aos="fade-left" className="lead ">
           Adalah sebuah lembaga kursus dan pelatihan yang berlokasi di Jl. Raya
           Karangnunggal No. 34 A Rancamaya Karangnunggal Kab. Tasikmalaya yang
-          terlah terakreditasi C oleh BAN FNFI sudah berdiri sejak 19 September
-          1995 dan telah mengajar ratusan Siswa
+          telah terakreditasi C oleh BAN FNFI. Sudah berdiri sejak 19 September
+          1995 dan telah mengajar ratusan Peserta Didik
         </p>
         <hr className="my-2" />
         <div data-aos="zoom-out-up" className="text-center  p-5 m-5 ">

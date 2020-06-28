@@ -18,7 +18,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url(../img/blue.jpg) no-repeat center center;
+  background: url(../img/white.jpg) no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -49,6 +49,7 @@ header.masthead h1 {
 }
 .showcase .showcase-img {
   min-height: 30rem;
+  width: 900px;
 
   background-size: cover;
 }

@@ -31,7 +31,7 @@ class Beranda extends Component {
           <h2 className="text-center mt-5">Tujuan </h2>
           <hr />
           <h5>
-            1. Mewujudkan lembaga pendidikandan pelatihan nonformal yang
+            1. Mewujudkan lembaga pendidikan dan pelatihan non formal yang
             berorientasi pada dunia kerja
           </h5>
           <h5>
