@@ -28,8 +28,11 @@ class PricingItem extends Component {
                 })}
               </ul>
             </div>
-            <button className="btn btn-block btn-primary text-uppercase">
-              Button
+            <button
+              className="btn btn-block btn-primary text-uppercase"
+              disabled
+            >
+              Program
             </button>
           </div>
         </div>

@@ -9,7 +9,7 @@ class PageWrapper extends Component {
     // or simply just AOS.init();
     AOS.init({
       // initialise with other settings
-      duration: 1500
+      duration: 2000
     });
   }
 
