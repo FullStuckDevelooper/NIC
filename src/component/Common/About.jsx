@@ -14,10 +14,13 @@ class About extends Component {
           Tentang NIC{" "}
         </h1>
         <p data-aos="fade-left" className="lead ">
-          Adalah sebuah lembaga kursus dan pelatihan yang berlokasi di Jl. Raya
-          Karangnunggal No. 34 A Rancamaya Karangnunggal Kab. Tasikmalaya yang
-          telah terakreditasi C oleh BAN FNFI. Sudah berdiri sejak 19 September
-          1995 dan telah mengajar ratusan Peserta Didik
+          LKP. NIC (Naluri Informatika Computer ) merupakan salah satu perintis
+          lembaga kursus di wilayah tasik selatan. Berdiri di tahun 1995 dengan
+          visi Peningkatan SDM yang terampil dan berkualitas di bidang teknologi
+          dan informasi yang berlokasi di Jl. Raya Karangnunggal No. 34 A
+          Rancamaya Karangnunggal Kab. Tasikmalaya yang telah terakreditasi C
+          oleh BAN FNFI. Sudah berdiri sejak 19 September 1995 dan telah
+          mengajar ratusan Peserta Didik
         </p>
         <hr className="my-2" />
         <div data-aos="zoom-out-up" className="text-center  p-5 m-5 ">
